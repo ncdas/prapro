@@ -1,5 +1,6 @@
 
-// adding number and String
-let firstName = "NC", age = 30, yearsOfStudy = 20; 
-    chkdatatype = yearsOfStudy + age + firstName; 
-    document.getElementById("chdata").innerHTML = chkdatatype;
+// quotes
+let x = "This is Mr. x", y = '"This is Mr. Y"', z = "That's Mr. Z"; 
+
+    console.log(x + y + z);
+
