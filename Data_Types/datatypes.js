@@ -1,7 +1,6 @@
 
-// array
+// Object Data Type
 
-const asia = [ "BD", "In", "pak"  ]
+const aboutMyself = { firstName: "NC", lastName: "Das", age : 30}
 
-    console.log(asia);
-
+    console.log(aboutMyself);
