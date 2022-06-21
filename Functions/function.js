@@ -1,7 +1,6 @@
-// Function
-function myFunction( a, b){
-    return a + b;
+// Fahrenheit to Cehlsius
+function toCelsius( fahrenheit){
+    return (5/9) * (fahrenheit -32);
 }
 
-let x = myFunction(10, 5);
-console.log(x);
+console.log(toCelsius(77));
