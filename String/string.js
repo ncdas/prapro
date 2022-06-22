@@ -20,3 +20,6 @@ let part = str.slice(7, 13);
 
 // Replacing String content
     console.log(txt.replace("ABC", "123"));
+
+// String split()
+    console.log(txt.split("|"));
