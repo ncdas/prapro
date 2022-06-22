@@ -26,3 +26,7 @@ let part = str.slice(7, 13);
 
 // String indexOf()
     console.log(str.indexOf("Kiwi"));
+
+// String lastIndexOf()
+    console.log(str.lastIndexOf("Banana"));
+    console.log(str.lastIndexOf("Abc"));
