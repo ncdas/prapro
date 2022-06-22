@@ -23,3 +23,6 @@ let part = str.slice(7, 13);
 
 // String split()
     console.log(txt.split("|"));
+
+// String indexOf()
+    console.log(str.indexOf("Kiwi"));
