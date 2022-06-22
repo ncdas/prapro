@@ -17,3 +17,6 @@ let part = str.slice(7, 13);
 
     console.log(str.substr(7,6));
     console.log(str.substr(7, 12));
+
+// Replacing String content
+    console.log(txt.replace("ABC", "123"));
