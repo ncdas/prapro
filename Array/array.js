@@ -10,8 +10,10 @@ let frt = fruits[fruits.length - 1]; // accesing last element of the arrary
 // Changing array element
 
     fruits[1] = 'Orange';   // Replaced #1 index with "Orange"
+    
         console.log(fruits);
-
+    fruits.push("lemon");       //added new element
+        console.log(fruits);
 // Loop through an array
 let frtLen = fruits.length;
     for (let i = 0; i < frtLen; i++){   //the loop will stop when array length will be same as i.
