@@ -24,3 +24,15 @@ let frtLen = fruits.length;
         fruits[fruits.length] = "lemon";
         document.getElementById("Lemon").innerHTML = fruits;
     }
+const num = [40, 100, 1, 5, 25, 10];
+
+// sort alphabetically
+    function myFunction1() {
+        num.sort();
+        document.getElementById("sorting").innerHTML = num;
+    }
+// sort numerically
+    function myFunction2(){
+        num.sort(function(a , b) {return (a-b)});
+        document.getElementById("sorting").innerHTML = num;
+    }
