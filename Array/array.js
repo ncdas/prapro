@@ -19,3 +19,8 @@ let frtLen = fruits.length;
     for (let i = 0; i < frtLen; i++){   //the loop will stop when array length will be same as i.
         console.log(fruits[i]);     // output
     }
+
+    function myFunction(){
+        fruits[fruits.length] = "lemon";
+        document.getElementById("Lemon").innerHTML = fruits;
+    }
