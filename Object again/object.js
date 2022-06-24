@@ -1,4 +1,4 @@
-// JS Object 
+// Accessing Object Methods
 
 const totalMarks = { 
     bangla: 50, 
