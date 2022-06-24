@@ -28,11 +28,12 @@ const num = [40, 100, 1, 5, 25, 10];
 
 // sort alphabetically
     function myFunction1() {
-        num.sort();
+        num.sort();     //This command sort array alphabetically by default.
         document.getElementById("sorting").innerHTML = num;
     }
 // sort numerically
     function myFunction2(){
-        num.sort(function(a , b) {return (a-b)});
+        num.sort(function(a , b) {return (a-b)});   //sorting array numerically
         document.getElementById("sorting").innerHTML = num;
     }
+// Fisher Yates Method
