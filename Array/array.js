@@ -36,4 +36,3 @@ const num = [40, 100, 1, 5, 25, 10];
         num.sort(function(a , b) {return (a-b)});   //sorting array numerically
         document.getElementById("sorting").innerHTML = num;
     }
-// Fisher Yates Method
