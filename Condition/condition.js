@@ -40,6 +40,24 @@ let day;
             break;
         case 6: 
             day = "Saturday";
+            break;
+        default:
+            day = "The input is invalid"
     }
 
     console.log(day);
+
+ //Confusion present in the snippet
+    let x = "0";
+
+        switch (x) {
+        case 0:
+            text = "Off";
+            break;
+        case 1:
+            text = "On";
+            break;
+        default:
+            text = "No value found";
+        }
+        console.log(text); //Q: Text wasnt defined, How did it get? 
