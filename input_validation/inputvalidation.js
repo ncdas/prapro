@@ -15,5 +15,8 @@ function myFunction() {
     catch(err) {
         msg.innerHTML = "Input is " + err;
     }
+    finally {
+        document.getElementById("inNumber").value = " ";
+    }
 }
 
