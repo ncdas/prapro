@@ -1,5 +1,6 @@
 // Accessing Object Methods
 
+let text = " ";
 const totalMarks = { 
     bangla: 50, 
     english: 60, 
@@ -8,4 +9,5 @@ const totalMarks = {
         return this.bangla;
     }
 };
-console.log(totalMarks.otherSubject());
+text = totalMarks["bangla"] + " " + "is marks for bangla";
+console.log(text);
