@@ -1,0 +1,26 @@
+We have a dataset for a week including day, temperature in celsius and rain posibility in percentage We have to find out the bellow things:
+
+    1. Hotest day of the week
+    2. Coolest day of the week
+    3. How many days will have more than 50% rain posibility.
+
+
+----------Understanding the problem-------------
+I Have: 
+    - Week including day names(String).
+    - Everyday temperature in celsius(Number).
+    - Everyday rain possibility(Number up to 100).
+
+Have to do:
+    - Show the name of the Hottest day of the week.(#1) 
+        * Compare everyday temperature values and find the 
+        biggest number among all and then show the name of the value 
+        as output as hottest day of the week. 
+    - Show the name of the Hottest day of the week.(#2)
+        * Compare everyday temperature values and find the 
+        smallest number among all and then show the name of the value 
+        as output as coolest day of the week. 
+    - Show the number of days has more than 50% rain possibility.(#3)
+        * Scan all weeks rain data and find which days has the number 
+        more than 50(start at 51), count them in and show the sum 
+        of total findings.
