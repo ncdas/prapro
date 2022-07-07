@@ -25,3 +25,15 @@ var weather_data = {
         rain: 48,
     },
 };
+
+//Total days of rain possibility more than 50%
+
+let all_Rainy_Days = 0;
+let total_dayOf_rain = 0;
+for (let x in weather_data) {
+    if (weather_data[x].rain > 50){
+        all_Rainy_Days += 1; 
+    }
+}
+total_dayOf_rain += all_Rainy_Days;
+console.log(total_dayOf_rain);

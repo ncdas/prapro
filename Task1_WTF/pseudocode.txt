@@ -24,3 +24,13 @@ Have to do:
         * Scan all weeks rain data and find which days has the number 
         more than 50(start at 51), count them in and show the sum 
         of total findings.
+
+Pseudocode:
+    #1. Hottest day of the week. 
+        Declare variables and initialze;
+            hottestDay, 
+        Loop thorugh the object
+            conditional statements to compare data(numbers)
+                Output statement(hottestDay);
+            end conditionalstatement;
+        end Loop;
