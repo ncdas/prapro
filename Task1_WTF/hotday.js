@@ -37,4 +37,4 @@ for (let x in weather_data) {
     }
 }
     
-    console.log(hottestDay);   
+console.log(hottestDay);
