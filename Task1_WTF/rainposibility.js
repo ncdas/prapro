@@ -2,11 +2,11 @@
 var weather_data = {
     sunday: {
         temp: 13,
-        rain: 20,
+        rain: 2,
     },
     monday: {
         temp: 16,
-        rain: 76,
+        rain: 71,
     },
     tuesday: {
         temp: 11,
@@ -14,11 +14,11 @@ var weather_data = {
     },
     wednesday: {
         temp: 18,
-        rain: 60,
+        rain: 17,
     },
     thrusday: {
         temp: 17,
-        rain: 81,
+        rain: 69,
     },
     friday: {
         temp: 14,
@@ -28,12 +28,11 @@ var weather_data = {
 
 //Total days of rain possibility more than 50%
 
-let all_Rainy_Days = 0;
-let total_dayOf_rain = 0;
+let total_Rainy_Days = 0;
+//let total_dayOf_rain = 0;
 for (let x in weather_data) {
     if (weather_data[x].rain > 50){
-        all_Rainy_Days += 1; 
+        total_Rainy_Days += 1;  
     }
 }
-total_dayOf_rain += all_Rainy_Days;
-console.log(total_dayOf_rain);
+console.log(total_Rainy_Days);
