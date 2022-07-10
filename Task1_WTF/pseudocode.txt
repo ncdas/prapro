@@ -51,11 +51,11 @@ Pseudocode: Coolest days of the week.
             if (temp < coolest_temp)
                 coolest_temp = temp
                 reset arrary
-                push temp(x) in the array
+                coolest_days = push temp(x) in the array
             
             else if (temp == coolest_temp)
                 coolest_temp = temp
-                add/push x in the array
+                coolest_days = add/push x in the array
             else 
                 do nothing
             end if 
