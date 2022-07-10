@@ -2,15 +2,15 @@
 
 var weather_data = {
     sunday: {
-        temp: 13,
+        temp: 16,
         rain: 20,
     },
     monday: {
-        temp: 16,
+        temp: 15,
         rain: 76,
     },
     tuesday: {
-        temp: 11,
+        temp: 70,
         rain: 45,
     },
     wednesday: {
@@ -22,7 +22,7 @@ var weather_data = {
         rain: 81,
     },
     friday: {
-        temp: 25,
+        temp: 70,
         rain: 48,
     },
 };
@@ -31,10 +31,11 @@ let hottestDay;
 let highestTemp = 0;
 
 for (let x in weather_data) {
-    if (weather_data[x].temp > highestTemp) {
-        highestTemp = Math.max(weather_data[x].temp);
-        hottestDay = [x]; 
-    }
+   if (weather_data[x].temp >= highestTemp) {
+        highestTemp = weather_data[x].temp;
+        hottestDay = x;
+   }
+
 }
-    
+   
 console.log(hottestDay);

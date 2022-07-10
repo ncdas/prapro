@@ -25,7 +25,8 @@ Have to do:
         more than 50(start at 51), count them in and show the sum 
         of total findings.
 
-Pseudocode:
+Pseudocode: Total Rainy Day
+-----------------------------
     // vaiable Declare and initialization
         all_rainy_days = 0, total_dayOf_Rain = 0;
 
@@ -38,4 +39,25 @@ Pseudocode:
                     print "not much rain comming"
                 end if
         end Loop
+    
+Pseudocode: Coolest days of the week. 
+--------------------------------------
+    // Varibale declaretion
+        coolest_temp = 100
+        coolest_days = []
+
+    // Loop through the object
+        for (key in object)
+            if (temp < coolest_temp)
+                coolest_temp = temp
+                reset arrary
+                push temp(x) in the array
+            
+            else if (temp == coolest_temp)
+                coolest_temp = temp
+                add/push x in the array
+            else 
+                do nothing
+            end if 
+        end loop
         
