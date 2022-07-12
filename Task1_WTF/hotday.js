@@ -10,7 +10,7 @@ var weather_data = {
         rain: 76,
     },
     tuesday: {
-        temp: 70,
+        temp: 16,
         rain: 45,
     },
     wednesday: {
@@ -27,7 +27,7 @@ var weather_data = {
     },
 };
 
-let hottestDay;
+/*let hottestDay;
 let highestTemp = 0;
 
 for (let x in weather_data) {
@@ -38,4 +38,22 @@ for (let x in weather_data) {
 
 }
    
-console.log(hottestDay);
+console.log(hottestDay);*/
+
+let hottest_temp = 0;
+let hottest_Days = [];
+
+for (let x in weather_data) {
+    if (weather_data[x].temp > hottest_temp) {
+        hottest_temp = weather_data[x].temp; 
+        hottest_Days.length = 0;
+        hottest_Days.push(x);
+    
+    }   else if (weather_data[x].temp == hottest_temp) {
+            hottest_Days.push(x);
+
+    }   else  {
+       null;
+    }
+}
+console.log(hottest_Days);
