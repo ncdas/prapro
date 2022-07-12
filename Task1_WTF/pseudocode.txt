@@ -28,13 +28,13 @@ Have to do:
 Pseudocode: Total Rainy Day
 -----------------------------
     // vaiable Declare and initialization
-        all_rainy_days = 0, total_dayOf_Rain = 0;
+        total_Rainy_Days = 0;
 
     // Loop through object
         for (key in object)
             //statement
                 if (rain > 50)
-                    all_rainy_days += 1
+                    total_Rainy_Days += 1
                 else
                     print "not much rain comming"
                 end if
@@ -60,4 +60,24 @@ Pseudocode: Coolest days of the week.
                 do nothing
             end if 
         end loop
-        
+
+Pseudocode: Hottest days of the week. 
+--------------------------------------
+     // Varibale declaretion
+        hottest_temp = 0
+        hottestest_days = []
+
+    // Loop through the object
+        for (key in object)
+            if (temp >  hottest_temp)
+                 hottest_temp = temp
+                reset arrary
+                 hottestest_days = push temp(x) in the array
+            
+            else if (temp == coolest_temp)
+                hottest_temp = temp
+                hottestest_days = add/push x in the array
+            else 
+                do nothing
+            end if 
+        end loop       
