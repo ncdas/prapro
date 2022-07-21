@@ -7,7 +7,7 @@ var products = {
     2: {
         name: 'Art Lamp',
         price: 29,
-        discount: 0
+        discount: 100
     },
     3: {
         name: 'Handcraft 801',
@@ -49,8 +49,7 @@ let price = 0;
 for (i = 0; i < shopping_cart.length; i++) {
     let x = 0;
     x = shopping_cart[i];
-    price = (products[x].price - (products[x].discount)/100);
-    console.log(price);
+    price = (products[x].price - (products[x].price*(products[x].discount)/100));
     total_price += price;
 
 }
