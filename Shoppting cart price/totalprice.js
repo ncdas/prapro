@@ -49,7 +49,8 @@ let price = 0;
 for (i = 0; i < shopping_cart.length; i++) {
     let x = 0;
     x = shopping_cart[i];
-    price = (products[x].price - (products[x].price*(products[x].discount)/100));
+    let pp = products[x].price;
+    price = (pp - (pp*(products[x].discount)/100));
     total_price += price;
 
 }
